@@ -20,6 +20,7 @@
 @import url('../blocks/header/__menu-button/_type/header__menu-button_type_list.css');
 @import url('../blocks/header/__menu-button/_type/header__menu-button_type_close.css');
 
+<<<<<<< HEAD
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__container/lead__container.css');
 @import url('../blocks/lead/__info/lead__info.css');
@@ -32,3 +33,15 @@
 @import url('../blocks/lead/__lang-links/_menu-visible/lead__lang-links_menu-visible.css');
 @import url('../blocks/lead/__lang-link/lead__lang-link.css');
 @import url('../blocks/lead/__image/lead__image.css');
+=======
+@import url('../blocks/skills/skills.css');
+@import url('../blocks/skills/__title/skills__title.css');
+@import url('../blocks/skills/__text/skills__text.css');
+@import url('../blocks/skills/__programs-block/skills__programs-block.css');
+@import url('../blocks/skills/__program-item/skills__program-item.css');
+@import url('../blocks/skills/__image/skills__image.css');
+@import url('../blocks/skills/__description/skills__description.css');
+@import url('../blocks/skills/__rate/skills__rate.css');
+@import url('../blocks/skills/__rate/_type/skills__rate_type_four-stars.css');
+@import url('../blocks/skills/__rate/_type/skills__rate_type_three-stars.css');
+>>>>>>> ab0d6c4fb37e9243908668aa67084c6805320c18

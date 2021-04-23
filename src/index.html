@@ -55,7 +55,33 @@
 
 <main>
   <section class="about" id="about"></section>
-  <section class="skills" id="skills"></section>
+  <section class="skills page__container page__container_type_whitebg" id="skills">
+    <h2 class="skills__title">Skills</h2>
+    <p class="skills__text">I work in such programs as</p>
+    <ul class="skills__programs-block">
+      <li class="skills__program-item">
+        <img src="<%=require('./images/photoshop.svg')%>" alt="Photoshop" class="skills__image">
+        <p class="skills__description">Adobe Photoshop</p>
+        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
+      </li>
+      <li class="skills__program-item">
+        <img src="<%=require('./images/illustrator.svg')%>" alt="Illustrator" class="skills__image">
+        <p class="skills__description">Adobe Illustrator</p>
+        <div class="skills__rate skills__rate_type_three-stars" aria-label="Star rater"></div>
+      </li>
+      <li class="skills__program-item">
+        <img src="<%=require('./images/effects.svg')%>" alt="After effects" class="skills__image">
+        <p class="skills__description">Adobe
+          After Effects</p>
+        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
+      </li>
+      <li class="skills__program-item">
+        <img src="<%=require('./images/figma.svg')%>" alt="Figma" class="skills__image">
+        <p class="skills__description">Figma</p>
+        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
+      </li>
+    </ul>
+  </section>
   <section class="portfolio" id="portfolio"></section>
   <section class="contacts" id="contacts"></section>
 </main>
