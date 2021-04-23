@@ -18,6 +18,13 @@
 @import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__menu-button/header__menu-button.css');
 
-
-
-
+@import url('../blocks/skills/skills.css');
+@import url('../blocks/skills/__title/skills__title.css');
+@import url('../blocks/skills/__text/skills__text.css');
+@import url('../blocks/skills/__programs-block/skills__programs-block.css');
+@import url('../blocks/skills/__program-item/skills__program-item.css');
+@import url('../blocks/skills/__image/skills__image.css');
+@import url('../blocks/skills/__description/skills__description.css');
+@import url('../blocks/skills/__rate/skills__rate.css');
+@import url('../blocks/skills/__rate/_type/skills__rate_type_four-stars.css');
+@import url('../blocks/skills/__rate/_type/skills__rate_type_three-stars.css');

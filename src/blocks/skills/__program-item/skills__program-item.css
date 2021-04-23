@@ -1,0 +1,5 @@
+.skills__program-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
