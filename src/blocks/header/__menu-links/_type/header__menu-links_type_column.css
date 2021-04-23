@@ -1,0 +1,8 @@
+.header__menu-links_type_column {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-gap: 68px;
+  justify-items: start;
+}
+

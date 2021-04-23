@@ -10,14 +10,23 @@
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__menu-links/header__menu-links.css');
+@import url('../blocks/header/__menu-links/_type/header__menu-links_type_row.css');
+@import url('../blocks/header/__menu-links/_type/header__menu-links_type_inactive.css');
+@import url('../blocks/header/__menu-links/_type/header__menu-links_type_column.css');
+
 @import url('../blocks/header/__menu-link/header__menu-link.css');
-@import url('../blocks/header/__container/header__container.css');
-@import url('../blocks/header/__name/header__name.css');
-@import url('../blocks/header/__short-info/header__short-info.css');
-@import url('../blocks/header/__lang-links/header__lang-links.css');
-@import url('../blocks/header/__lang-link/header__lang-link.css');
 @import url('../blocks/header/__menu-button/header__menu-button.css');
+@import url('../blocks/header/__menu-button/_type/header__menu-button_type_list.css');
+@import url('../blocks/header/__menu-button/_type/header__menu-button_type_close.css');
 
-
-
-
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/lead/__container/lead__container.css');
+@import url('../blocks/lead/__info/lead__info.css');
+@import url('../blocks/lead/__info/__inactive/lead__info_inactive.css');
+@import url('../blocks/lead/__name/lead__name.css');
+@import url('../blocks/lead/__short-info/lead__short-info.css');
+@import url('../blocks/lead/__profession/lead__profession.css');
+@import url('../blocks/lead/__agelocation/lead__agelocation.css');
+@import url('../blocks/lead/__lang-links/lead__lang-links.css');
+@import url('../blocks/lead/__lang-link/lead__lang-link.css');
+@import url('../blocks/lead/__image/lead__image.css');

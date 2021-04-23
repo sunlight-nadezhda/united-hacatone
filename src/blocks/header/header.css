@@ -1,4 +1,10 @@
 .header {
-  max-width: 940px;
   padding-top: 33px;
+  position: relative;
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding-top: 25px;
+  }
 }

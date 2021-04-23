@@ -9,7 +9,7 @@
 <body class="page">
   <header class="header page__container page__container_type_whitebg">
     <nav>
-      <ul class="header__menu-links">
+      <ul class="header__menu-links header__menu-links_type_row">
         <li class="header__menu-link">
           <a class="page__link page__link_active" href = "#" target="_self">Home</a>
         </li>
@@ -27,20 +27,30 @@
         </li>
       </ul>
     </nav>
-    <div class="header__container">
-      <h1 class="header__name">Denis Novik</h1>
-      <p class="header__short-info">UX | UI designer 24 years old, Minsk</p>
-      <ul class="header__lang-links">
-        <li class="header__lang-link">
-          <a href="#" target="_self" class="page__link">Ru</a>
-        </li>
-        <li class ="header__lang-link">
-          <a href="#" target="_self" class="page__link page__link_active">Eng</a>
-        </li>
-      </ul>
-      <div class="header__menu-button"></div>
-    </div>
-  </header>
+    <div class="header__menu-button header__menu-button_type_list"></div>
+    </header>
+
+    <section class ="lead page__container page__container_type_whitebg">
+      <div class="lead__container">
+        <div class="lead__info">
+          <h1 class="lead__name">Denis Novik</h1>
+          <div class="lead__short-info">
+            <p class = "lead__profession">UX | UI designer</p>
+            <p class = "lead__agelocation">24 years old, Minsk</p>
+          </div>
+        </div>
+        <ul class="lead__lang-links">
+          <li class="lead__lang-link">
+            <a href="#" target="_self" class="page__link">Ru</a>
+          </li>
+          <li class ="lead__lang-link">
+            <a href="#" target="_self" class="page__link page__link_active">Eng</a>
+          </li>
+        </ul>
+      </div>
+      <img class="lead__image" src="<%=require('./images/lead-images/123.jpg')%>" alt="Портрет человека">
+  </section>
+
 <main>
   <section class="about" id="about"></section>
   <section class="skills" id="skills"></section>

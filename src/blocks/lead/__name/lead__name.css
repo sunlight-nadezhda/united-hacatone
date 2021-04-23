@@ -1,8 +1,14 @@
-.header__name {
+.lead__name {
   font-size: 47px;
   font-weight: 700;
   line-height: 1.25;
   margin: 0;
   padding: 0;
   max-width: 123.51px;
+}
+
+@media screen and (max-width: 560px) {
+  .lead__name {
+    padding-bottom: 23px;
+  }
 }

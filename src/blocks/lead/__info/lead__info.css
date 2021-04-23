@@ -1,0 +1,14 @@
+.lead__info {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 560px) {
+  .lead__info {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}

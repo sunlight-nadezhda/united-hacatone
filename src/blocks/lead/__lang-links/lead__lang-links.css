@@ -1,4 +1,4 @@
-.header__lang-links {
+.lead__lang-links {
   display: flex;
   flex-direction: row;
   transform: rotate(-90deg);
