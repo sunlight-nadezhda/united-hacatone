@@ -28,6 +28,7 @@
 @media screen and (max-width: 560px) {
   .header__menu-button {
     display: block;
+    top: 68px;
   }
 }
 

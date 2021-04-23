@@ -10,4 +10,18 @@
   margin: 8px 0 0 0;
   padding: 0;
   max-width: 17px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .lead__lang-links {
+    display: none;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.23;
+    bottom: 50px;
+    right: 5px;
+  }
 }

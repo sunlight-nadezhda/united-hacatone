@@ -1,8 +1,16 @@
 .header__menu-links_type_column {
+  width:100%;
   margin-top: 32px;
   display: grid;
-  grid-template-columns: max-content;
   grid-gap: 68px;
-  justify-items: start;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
+@media screen and (min-width: 560px) {
+  .header__menu-links_type_column {
+    display: none;
+  }
+}

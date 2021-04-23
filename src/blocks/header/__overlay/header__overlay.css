@@ -1,0 +1,7 @@
+.header__overlay {
+  position: relative;
+  background-color: #fff;
+  left: 0;
+  top: 0;
+  width: 100vw;
+}

@@ -9,9 +9,10 @@
 @import url('../blocks/page/__link/_active/page__link_active.css');
 
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__overlay/header__overlay.css');
+@import url('../blocks/header/__overlay/_active/header__overlay_active.css');
 @import url('../blocks/header/__menu-links/header__menu-links.css');
 @import url('../blocks/header/__menu-links/_type/header__menu-links_type_row.css');
-@import url('../blocks/header/__menu-links/_type/header__menu-links_type_inactive.css');
 @import url('../blocks/header/__menu-links/_type/header__menu-links_type_column.css');
 
 @import url('../blocks/header/__menu-link/header__menu-link.css');
@@ -22,11 +23,12 @@
 @import url('../blocks/lead/lead.css');
 @import url('../blocks/lead/__container/lead__container.css');
 @import url('../blocks/lead/__info/lead__info.css');
-@import url('../blocks/lead/__info/__inactive/lead__info_inactive.css');
+@import url('../blocks/lead/__info/_inactive/lead__info_inactive.css');
 @import url('../blocks/lead/__name/lead__name.css');
 @import url('../blocks/lead/__short-info/lead__short-info.css');
 @import url('../blocks/lead/__profession/lead__profession.css');
 @import url('../blocks/lead/__agelocation/lead__agelocation.css');
 @import url('../blocks/lead/__lang-links/lead__lang-links.css');
+@import url('../blocks/lead/__lang-links/_menu-visible/lead__lang-links_menu-visible.css');
 @import url('../blocks/lead/__lang-link/lead__lang-link.css');
 @import url('../blocks/lead/__image/lead__image.css');
