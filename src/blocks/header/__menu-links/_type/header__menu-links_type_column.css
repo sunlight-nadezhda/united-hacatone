@@ -1,7 +1,6 @@
 .header__menu-links_type_column {
-  width:100%;
-  margin-top: 32px;
   display: grid;
+  justify-items: start;
   grid-gap: 68px;
   position: relative;
   top: 0;

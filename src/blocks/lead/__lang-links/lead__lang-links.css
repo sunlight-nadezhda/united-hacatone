@@ -19,9 +19,11 @@
   .lead__lang-links {
     display: none;
     font-size: 34px;
+    max-width: 36px;
     font-weight: 700;
     line-height: 1.23;
-    bottom: 50px;
+    /* top: 110px; */
+    bottom: 110px;
     right: 5px;
   }
 }

@@ -1,0 +1,28 @@
+.button-menu {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: opacity .3s;
+  padding: 0;
+  width: 33px;
+  height: 20px;
+  background-image: url('../../images/list-icon.svg');
+
+}
+
+.button-menu:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 560px) {
+  .button-menu {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+}
+
