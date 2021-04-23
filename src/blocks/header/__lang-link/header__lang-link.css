@@ -1,0 +1,12 @@
+.header__lang-link {
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+.header__lang-link:first-child {
+  margin: 0 0 0 10px;
+}
+.header__lang-link:not(:first-child)::before {
+  content: "|";
+  margin: 0 3px;
+}

@@ -1,0 +1,13 @@
+.header__lang-links {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(-90deg);
+  align-items: flex-start;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 8px 0 0 0;
+  padding: 0;
+  max-width: 17px;
+}
