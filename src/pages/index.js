@@ -18,8 +18,6 @@ menu.setEventListeners();
 const projectsBlock = document.querySelector('.portfolio__projects-block');
 
 projectsInfo.forEach(data => {
-  console.log('link: ', data.link);
-  console.log('text: ', data.text);
   const card = new ProjectCard(data, '#card-project');
   const projectCard = card.renderCard();
   projectsBlock.append(projectCard);
