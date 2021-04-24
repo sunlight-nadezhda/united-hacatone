@@ -53,8 +53,8 @@
     </section>
   </header>
 
-<main class="content page__container">
-  <section class="faded-image"></section>
+<main class="content">
+  <section class="slider appear page__container faded-image"></section>
   <section class="about page__container page__container_type_greybg" id="about">
     <h2 class="title">About me</h2>
     <div class="about__content">
@@ -93,8 +93,10 @@
       </li>
     </ul>
   </section>
-  <section class="portfolio" id="portfolio"></section>
-  
+  <section class="portfolio page__container page__container_type_greybg" id="portfolio">
+    <h2 class="title">Portfolio</h2>
+    <div class="portfolio__projects-block"></div>
+  </section>
   <section class="contacts" id="contacts"></section>
 
   <footer class="footer page__container page__container_type_whitebg">
@@ -130,5 +132,12 @@
   </footer>
 
 </main>
+
+<template id="card-project">
+  <a href="#" class="portfolio__project-link" target="_blank">
+    <img src="<%=require('./images/fashion.jpg')%>" alt="Portfolio image" class="portfolio__image">
+    <p class="portfolio__project-name">Online fashion store - Homepage</p>
+  </a>
+</template>
 </body>
 </html>

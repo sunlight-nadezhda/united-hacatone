@@ -4,5 +4,11 @@
   margin-top: 18px;
   display: grid;
   grid-gap: 40px;
-  white-space: break-spaces;
+  white-space: pre-line;
+}
+
+@media (max-width: 470px) {
+  .about__content {
+    white-space: normal;
+  }
 }

@@ -1,0 +1,9 @@
+.portfolio__project-name {
+  margin: 0;
+  margin-top: 45px;
+}
+@media screen and (max-width: 470px) {
+  .portfolio__project-name {
+    margin-top: 33px;
+  }
+}

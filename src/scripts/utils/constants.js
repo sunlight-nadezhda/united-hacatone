@@ -1,4 +1,8 @@
-const initialImages = [
+import fashionImage from './../../images/fashion.jpg';
+import reebokImage from './../../images/reebok.jpg';
+import braunImage from './../../images/braun.jpg';
+
+export const initialImages = [
   {
     link: 'url("https://images.unsplash.com/photo-1595754883593-e274aaa13580?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80")'
   },
@@ -25,13 +29,27 @@ const initialImages = [
   },
 ];
 
-const menuSettings = { 
-    menuButton: document.querySelector('.button-menu'), 
-    closeButton: document.querySelector('.button-close'), 
-    menuLinks: document.querySelector('.header__menu-links'), 
-    userLeadInfo: document.querySelector('.lead__info'), 
-    content: document.querySelector('.content'), 
-    langLinks: document.querySelector('.lead__lang-links')
-} 
 
-export {initialImages, menuSettings}
+export const projectsInfo = [
+  {
+    link: fashionImage,
+    text: 'Online fashion store - Homepage'
+  },
+  {
+    link: reebokImage,
+    text: 'Reebok Store - Concept'
+  },
+  {
+    link: braunImage,
+    text: 'Braun Landing Page - Concept'
+  }
+];
+
+export const menuSettings = {
+    menuButton: document.querySelector('.button-menu'),
+    closeButton: document.querySelector('.button-close'),
+    menuLinks: document.querySelector('.header__menu-links'),
+    userLeadInfo: document.querySelector('.lead__info'),
+    content: document.querySelector('.content'),
+    langLinks: document.querySelector('.lead__lang-links')
+};

@@ -16,9 +16,16 @@
   background-image: url('../../images/woman.jpg');
 }
 
+@media screen and (max-width: 1000px) {
+  .faded-image {
+    max-width: calc(100% * 943/1445);
+  }
+}
+
 @media screen and (max-width: 380px) {
   .faded-image {
-    height: calc((478/376)*(100vw - 60));
+    margin-bottom: 83px;
+    height: calc((478/376)*(100vw - 60px));
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
