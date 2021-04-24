@@ -1,0 +1,11 @@
+.skills__program-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 810px) {
+  .skills__program-item {
+    margin-bottom: 81px;
+  }
+}

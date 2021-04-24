@@ -1,0 +1,17 @@
+.lead__lang-link {
+  display: flex;
+  justify-content: flex-start;
+  text-transform: uppercase;
+}
+.lead__lang-link:first-child {
+  margin: 0 0 0 10px;
+}
+.lead__lang-link:not(:first-child)::before {
+  content: "|";
+  margin: 0 3px;
+}
+@media screen and (max-width: 560px) {
+  .lead__lang-link {
+    margin-right: 57px;
+  }
+}

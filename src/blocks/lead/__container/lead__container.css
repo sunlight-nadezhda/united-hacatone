@@ -1,0 +1,15 @@
+.lead__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 0;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+@media screen and (min-width: 560px) {
+  .lead__container {
+    margin-top: 40px;
+  }
+}

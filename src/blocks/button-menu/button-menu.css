@@ -1,0 +1,31 @@
+.button-menu {
+  display: none;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  transition: opacity .3s;
+  padding: 20px 0 0 0;
+  box-sizing: content-box;
+  width: 33px;
+  height: 20px;
+  background-image: url('../../images/list-icon.svg');
+}
+
+.button-menu:hover {
+  opacity: 0.6;
+}
+.button-menu:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 560px) {
+  .button-menu {
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+  }
+}
+

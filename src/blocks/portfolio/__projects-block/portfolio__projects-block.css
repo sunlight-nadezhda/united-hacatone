@@ -1,0 +1,12 @@
+.portfolio__projects-block {
+  margin-top: 47px;
+  display: grid;
+  grid-gap: 99px;
+}
+
+@media screen and (max-width: 560px) {
+  .portfolio__projects-block {
+    margin-top: 65px;
+    grid-gap: 78px;
+  }
+}

@@ -1,0 +1,17 @@
+.footer__feedback-text {
+  text-align: center;
+  padding-top: 45px;
+  font-size: 14px;
+  line-height: 1.21;
+  font-weight: 500;
+  max-width: 275px;
+  color: #828282;
+  margin: 0;
+}
+
+@media screen and (max-width: 560px) {
+  .footer__feedback-text{
+    padding-top: 48px;
+    min-height: 64px;
+  }
+}

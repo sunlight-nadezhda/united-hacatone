@@ -1,0 +1,26 @@
+.lead__lang-links {
+  display: flex;
+  flex-direction: row;
+  transform: rotate(-90deg);
+  align-items: flex-start;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  right: -30px;
+  bottom: 27px;
+}
+
+@media screen and (max-width: 560px) {
+  .lead__lang-links {
+    display: none;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.23;
+    right: -80px;
+    bottom: -65px;
+  }
+}

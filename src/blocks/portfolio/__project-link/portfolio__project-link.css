@@ -1,0 +1,11 @@
+.portfolio__project-link {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #070707;
+  transition: opacity .15s ease-in-out;
+}
+
+.portfolio__project-link:hover {
+  opacity: 0.6;
+}

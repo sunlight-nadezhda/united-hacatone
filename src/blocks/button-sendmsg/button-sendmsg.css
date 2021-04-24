@@ -1,0 +1,34 @@
+.button-sendmsg {
+  width: 180px;
+  min-height: 42px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.22;
+  text-align: center;
+  color: #fff;
+  background-color: #000;
+  transition: opacity .3s;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-sendmsg:hover {
+  opacity: 0.6;
+}
+
+.button-sendmsg:active {
+  transform: scale(0.95);
+}
+
+@media screen and (max-width: 560)
+{
+  .button-sendmsg {
+    width: calc(100% - 60);
+    margin-top: 40px;
+  }
+}

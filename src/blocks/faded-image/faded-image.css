@@ -1,0 +1,33 @@
+@keyframes fade {
+  0% { opacity: 1 }
+  50% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.faded-image {
+  animation: fade 8s ease-in-out infinite;
+  animation-delay: 4s;
+  margin-bottom: 104px;
+  width: 943px;
+  padding: 0;
+  height: 387px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-image: url('../../images/woman.jpg');
+}
+
+@media screen and (max-width: 1000px) {
+  .faded-image {
+    width: calc(100% - 60px);
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .faded-image {
+    margin-bottom: 83px;
+    height: calc((478/376)*(100vw));
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+

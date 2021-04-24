@@ -1,0 +1,17 @@
+.skills__programs-block {
+  list-style-type: none;
+  padding: 0;
+  margin: 83px 0 110px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 560px) {
+  .skills__programs-block {
+    margin-top: 71px;
+    margin-bottom: 18px;
+    flex-direction: column;
+  }
+}
