@@ -1,5 +1,6 @@
 .slider {
-  width: 100%;
+  margin: 0 auto 104px;
+  max-width: 943px;
   height: 387px;
   background-size: cover;
   background-repeat: no-repeat;

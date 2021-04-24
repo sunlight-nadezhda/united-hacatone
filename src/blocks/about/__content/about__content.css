@@ -1,0 +1,8 @@
+.about__content {
+  max-width: 510px;
+  margin: 0 auto;
+  margin-top: 18px;
+  display: grid;
+  grid-gap: 40px;
+  white-space: break-spaces;
+}
