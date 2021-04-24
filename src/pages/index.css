@@ -64,3 +64,8 @@
 @import url('../blocks/footer/__social-icon/footer__social-icon.css');
 @import url('../blocks/footer/__feedback-text/footer__feedback-text.css');
 @import url('../blocks/footer/__author/footer__author.css');
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__projects-block/portfolio__projects-block.css');
+@import url('../blocks/portfolio/__project-link/portfolio__project-link.css');
+@import url('../blocks/portfolio/__image/portfolio__image.css');
+@import url('../blocks/portfolio/__project-name/portfolio__project-name.css');

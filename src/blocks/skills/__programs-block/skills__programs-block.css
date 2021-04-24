@@ -2,6 +2,7 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  margin-bottom: 110px;
   margin-top: 83px;
   width: 100%;
   display: flex;
@@ -12,6 +13,7 @@
 @media (max-width: 470px) {
   .skills__programs-block {
     margin-top: 71px;
+    margin-bottom: calc(99px - 81px);
     flex-direction: column;
   }
 }
