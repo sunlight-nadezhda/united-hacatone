@@ -4,20 +4,20 @@ export default class Faded {
 
   constructor(selector, initialImages) {
     this._initialImages = initialImages;
-    this._sliderImage = document.querySelector(selector);
+    this._fadedImage = document.querySelector(selector);
   }
 
-  _setSliderImage() {
+  _setFadedImage() {
     if (index == this._initialImages.length - 1) {
         index = 0;
     }
     const image = this._initialImages[index];
-    this._sliderImage.style.backgroundImage = image.link;
+    this._fadedImage.style.backgroundImage = image.link;
     index++;
   }
 
   setTimerToChangeImage() {
-    setInterval(this._setSliderImage.bind(this),8000);
+    setInterval(this._setFadedImage.bind(this),8000);
   }
 }
  
