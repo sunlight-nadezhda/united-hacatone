@@ -2,3 +2,7 @@
   height: 100%;
   width: 100%;    
 }
+
+.footer__social-icon:active {
+  transform: scale(0.95);
+}

@@ -94,8 +94,10 @@
     </ul>
   </section>
   <section class="portfolio page__container page__container_type_greybg" id="portfolio">
-    <h2 class="title">Portfolio</h2>
-    <div class="portfolio__projects-block"></div>
+    <div class="portfolio__container">
+      <h2 class="title">Portfolio</h2>
+      <div class="portfolio__projects-block"></div>
+    </div>
   </section>
   <section class="contacts" id="contacts"></section>
 
@@ -134,7 +136,7 @@
 </main>
 
 <template id="card-project">
-  <a href="#" class="portfolio__project-link" target="_blank">
+  <a href="#" class="portfolio__project-link" target="_blank" rel="noopener noreferrer">
     <img src="<%=require('./images/fashion.jpg')%>" alt="Portfolio image" class="portfolio__image">
     <p class="portfolio__project-name">Online fashion store - Homepage</p>
   </a>

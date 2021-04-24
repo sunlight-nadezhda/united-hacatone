@@ -18,3 +18,7 @@
 .button-close:hover {
   opacity: 0.6;
 }
+
+.button-close:active {
+  transform: scale(0.95);
+}

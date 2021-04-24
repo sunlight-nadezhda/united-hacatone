@@ -17,6 +17,9 @@
 .button-menu:hover {
   opacity: 0.6;
 }
+.button-menu:active {
+  transform: scale(0.95);
+}
 
 @media screen and (max-width: 560px) {
   .button-menu {

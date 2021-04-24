@@ -1,5 +1,13 @@
 .portfolio {
   padding-top: 113px;
   padding-bottom: 96px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 560px) {
+  .portfolio {
+    padding-top: 81px;
+    padding-bottom: 78px;
+  }
 }

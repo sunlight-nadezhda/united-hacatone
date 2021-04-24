@@ -6,7 +6,7 @@
   font-weight: 500;
 }
 
-@media (max-width: 470px) {
+@media (max-width: 560px) {
   .skills__text {
     margin-top: 50px;
   }

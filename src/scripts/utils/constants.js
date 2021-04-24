@@ -32,16 +32,19 @@ export const initialImages = [
 
 export const projectsInfo = [
   {
-    link: fashionImage,
-    text: 'Online fashion store - Homepage'
+    image: fashionImage,
+    text: 'Online fashion store - Homepage',
+    link: 'https://ru.levi.com/'
   },
   {
-    link: reebokImage,
-    text: 'Reebok Store - Concept'
+    image: reebokImage,
+    text: 'Reebok Store - Concept',
+    link: 'https://www.reebok.ru/'
   },
   {
-    link: braunImage,
-    text: 'Braun Landing Page - Concept'
+    image: braunImage,
+    text: 'Braun Landing Page - Concept',
+    link: 'https://braun-russia.ru/'
   }
 ];
 

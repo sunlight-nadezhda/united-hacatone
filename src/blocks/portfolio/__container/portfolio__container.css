@@ -1,6 +1,5 @@
-.about {
-  padding-top: 120px;
-  padding-bottom: 107px;
+.portfolio__container {
+  max-width: 936px;
   display: flex;
   justify-content: center;
   flex-direction: column;

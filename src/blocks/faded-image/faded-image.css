@@ -7,8 +7,9 @@
 .faded-image {
   animation: fade 8s ease-in-out infinite;
   animation-delay: 4s;
-  margin: 0 auto 104px;
-  max-width: 943px;
+  margin-bottom: 104px;
+  width: 943px;
+  padding: 0;
   height: 387px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -18,7 +19,7 @@
 
 @media screen and (max-width: 1000px) {
   .faded-image {
-    max-width: calc(100% * 943/1445);
+    width: calc(100% - 60px);
   }
 }
 
