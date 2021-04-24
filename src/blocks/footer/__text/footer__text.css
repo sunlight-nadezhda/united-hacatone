@@ -1,7 +1,9 @@
 .footer__text {
+  text-align: center;
   padding-top: 20px;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.22;
   font-weight: 500;
   max-width: 275px;
+  margin: 0;
 }

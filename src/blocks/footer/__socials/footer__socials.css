@@ -1,0 +1,22 @@
+.footer__socials {
+  list-style: none;
+  padding: 85px 0 0 0;
+  margin: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,40px);
+  column-gap: 60px;
+}
+
+@media screen and (max-width: 560px) {
+  .footer__socials  {
+    padding-top: 48px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer__socials  {
+  padding-top: 48px;
+  column-gap: calc((100vw - 220px) / 3);
+  }
+}

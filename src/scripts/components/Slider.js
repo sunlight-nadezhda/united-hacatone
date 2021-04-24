@@ -17,7 +17,7 @@ export default class Slider {
   }
 
   setTimerToChangeImage() {
-    setInterval(this._setSliderImage.bind(this),5000);
+    setInterval(this._setSliderImage.bind(this),10000);
   }
 }
  

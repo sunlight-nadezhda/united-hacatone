@@ -24,6 +24,7 @@
 @import url('../blocks/button-close/_active/button-close_active.css');
 @import url('../blocks/button-menu/button-menu.css');
 @import url('../blocks/button-menu/_inactive/button-menu_inactive.css');
+@import url('../blocks/button-sendmsg/button-sendmsg.css');
 
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/_inactive/content_inactive.css');
@@ -58,3 +59,8 @@
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__socials/footer__socials.css');
+@import url('../blocks/footer/__social/footer__social.css');
+@import url('../blocks/footer/__social-icon/footer__social-icon.css');
+@import url('../blocks/footer/__feedback-text/footer__feedback-text.css');
+@import url('../blocks/footer/__author/footer__author.css');

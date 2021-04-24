@@ -8,6 +8,7 @@
   cursor: pointer;
   transition: opacity .3s;
   padding: 20px 0 0 0;
+  box-sizing: content-box;
   width: 33px;
   height: 20px;
   background-image: url('../../images/list-icon.svg');
