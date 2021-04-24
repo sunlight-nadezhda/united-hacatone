@@ -14,7 +14,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  background-image: url('../../images/lead-images/initial.jpg');
+  background-image: url('../../images/woman.jpg');
 }
 
 @media screen and (max-width: 1000px) {
