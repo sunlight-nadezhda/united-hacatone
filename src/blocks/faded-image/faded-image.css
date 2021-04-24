@@ -23,10 +23,10 @@
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 478px) {
   .faded-image {
     margin-bottom: 83px;
-    height: calc((478/376)*(100vw - 60px));
+    height: calc((478/376)*(100vw));
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
