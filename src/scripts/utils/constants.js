@@ -1,4 +1,4 @@
-export const initialImages = [
+const initialImages = [
   {
     link: 'url("https://images.unsplash.com/photo-1595754883593-e274aaa13580?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80")'
   },
@@ -15,3 +15,15 @@ export const initialImages = [
     link: 'url("https://wallpapercrafter.com/desktop/274154-portrait-profile-blackampwhite-and-black-hd.jpg")'
   }
 ];
+
+
+const menuSettings = { 
+    menuButton: document.querySelector('.button-menu'), 
+    closeButton: document.querySelector('.button-close'), 
+    menuLinks: document.querySelector('.header__menu-links'), 
+    userLeadInfo: document.querySelector('.lead__info'), 
+    content: document.querySelector('.content'), 
+    langLinks: document.querySelector('.lead__lang-links')
+} 
+
+export {initialImages, menuSettings}
