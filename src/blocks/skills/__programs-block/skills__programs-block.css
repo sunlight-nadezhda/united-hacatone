@@ -6,4 +6,12 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 470px) {
+  .skills__programs-block {
+    margin-top: 71px;
+    flex-direction: column;
+  }
 }
