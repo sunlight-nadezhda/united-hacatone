@@ -1,5 +1,6 @@
 import './index.css';
-import {initialImages} from '../scripts/utils/constants.js'
+import {initialImages} from '../scripts/utils/constants.js';
+import Slider from '../scripts/components/Slider.js';
 const menuButton = document.querySelector('.button-menu');
 const closeButton = document.querySelector('.button-close');
 const menuLinks = document.querySelector('.header__menu-links');
@@ -7,20 +8,11 @@ const langLinks = document.querySelector('.lead__lang-links');
 const mediaQuery = window.matchMedia('(min-width: 560px)');
 const userLeadInfo = document.querySelector('.lead__info');
 const content = document.querySelector('.content');
-// const header = document.querySelector('.header');
 const sliderImage = document.querySelector('.slider');
 let index = 0;
 
-function setSliderImage() {
-  if (index == initialImages.length - 1) {
-    index = 0;
-  }
-  let image = initialImages[index];
-  sliderImage.style.backgroundImage = image.link;
-
-  index++;
-}
-setInterval(setSliderImage,5000);
+const slider = new Slider(initialImages);
+setInterval(slider.setSliderImage,5000);
 
 
 function handleViewMenu() {
