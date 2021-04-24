@@ -9,6 +9,8 @@
 @import url('../blocks/page/__link/page__link.css');
 @import url('../blocks/page/__link/_active/page__link_active.css');
 
+@import url('../blocks/title/title.css');
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__overlay/header__overlay.css');
 @import url('../blocks/header/__overlay/_active/header__overlay_active.css');
@@ -41,12 +43,10 @@
 @import url('../blocks/slider/slider.css');
 
 @import url('../blocks/about/about.css');
-@import url('../blocks/about/__title/about__title.css');
 @import url('../blocks/about/__content/about__content.css');
 @import url('../blocks/about/__text/about__text.css');
 
 @import url('../blocks/skills/skills.css');
-@import url('../blocks/skills/__title/skills__title.css');
 @import url('../blocks/skills/__text/skills__text.css');
 @import url('../blocks/skills/__programs-block/skills__programs-block.css');
 @import url('../blocks/skills/__program-item/skills__program-item.css');
@@ -55,3 +55,6 @@
 @import url('../blocks/skills/__rate/skills__rate.css');
 @import url('../blocks/skills/__rate/_type/skills__rate_type_four-stars.css');
 @import url('../blocks/skills/__rate/_type/skills__rate_type_three-stars.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__text/footer__text.css');
