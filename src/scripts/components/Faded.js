@@ -1,6 +1,6 @@
 let index = 0;
 
-export default class Slider {
+export default class Faded {
 
   constructor(selector, initialImages) {
     this._initialImages = initialImages;
@@ -17,7 +17,7 @@ export default class Slider {
   }
 
   setTimerToChangeImage() {
-    setInterval(this._setSliderImage.bind(this),10000);
+    setInterval(this._setSliderImage.bind(this),8000);
   }
 }
  

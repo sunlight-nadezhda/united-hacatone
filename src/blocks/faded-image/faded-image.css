@@ -1,4 +1,13 @@
-.slider {
+
+@keyframes fade {
+  0% { opacity: 1 }
+  50% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+.faded-image {
+  animation: fade 8s ease-in-out infinite;
+  animation-delay: 4s;
   margin: 0 auto 104px;
   max-width: 943px;
   height: 387px;
@@ -9,7 +18,7 @@
 }
 
 @media screen and (max-width: 380px) {
-  .slider {
+  .faded-image {
     height: calc((478/376)*(100vw - 60));
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }

@@ -13,9 +13,17 @@ const initialImages = [
   },
   {
     link: 'url("https://wallpapercrafter.com/desktop/274154-portrait-profile-blackampwhite-and-black-hd.jpg")'
-  }
+  },
+  {
+    link: 'url("http://images.unsplash.com/photo-1547034403-c8d53213f7b5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9")'
+  },
+  {
+    link: 'url("https://femmie.ru/wp-content/uploads/2019/05/photo-1549459300-6d290f8def71.jpeg")'
+  },
+  {
+    link: 'url("https://mindbodywise.com/wp-content/uploads/2019/06/6-natural-ways-to-calm-your-anxious-heart-yoann-boyer.jpg")'
+  },
 ];
-
 
 const menuSettings = { 
     menuButton: document.querySelector('.button-menu'), 

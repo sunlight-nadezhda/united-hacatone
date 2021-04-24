@@ -41,7 +41,7 @@
 @import url('../blocks/lead/__lang-links/_menu-visible/lead__lang-links_menu-visible.css');
 @import url('../blocks/lead/__lang-link/lead__lang-link.css');
 
-@import url('../blocks/slider/slider.css');
+@import url('../blocks/faded-image/faded-image.css');
 
 @import url('../blocks/about/about.css');
 @import url('../blocks/about/__content/about__content.css');
