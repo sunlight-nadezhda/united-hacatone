@@ -1,0 +1,4 @@
+.portfolio__image {
+  object-fit: contain;
+  width: calc(100vw - 60px);
+}

@@ -55,3 +55,9 @@
 @import url('../blocks/skills/__rate/skills__rate.css');
 @import url('../blocks/skills/__rate/_type/skills__rate_type_four-stars.css');
 @import url('../blocks/skills/__rate/_type/skills__rate_type_three-stars.css');
+
+@import url('../blocks/portfolio/portfolio.css');
+@import url('../blocks/portfolio/__projects-block/portfolio__projects-block.css');
+@import url('../blocks/portfolio/__project-link/portfolio__project-link.css');
+@import url('../blocks/portfolio/__image/portfolio__image.css');
+@import url('../blocks/portfolio/__project-name/portfolio__project-name.css');
