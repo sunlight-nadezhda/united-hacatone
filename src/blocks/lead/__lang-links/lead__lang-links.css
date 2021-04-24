@@ -7,23 +7,20 @@
   font-size: 16px;
   font-weight: 700;
   line-height: 1.25;
-  margin: 8px 0 0 0;
   padding: 0;
-  max-width: 17px;
+  margin: 0;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: -30px;
+  bottom: 27px;
 }
 
 @media screen and (max-width: 560px) {
   .lead__lang-links {
     display: none;
     font-size: 34px;
-    max-width: 36px;
     font-weight: 700;
     line-height: 1.23;
-    /* top: 110px; */
-    bottom: 110px;
-    right: 5px;
+    right: -80px;
+    bottom: -50px;
   }
 }

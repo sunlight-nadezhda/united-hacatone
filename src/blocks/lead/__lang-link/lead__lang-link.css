@@ -10,3 +10,8 @@
   content: "|";
   margin: 0 3px;
 }
+@media screen and (max-width: 560px) {
+  .lead__lang-link {
+    margin-right: 57px;
+  }
+}

@@ -7,11 +7,10 @@
   background-position: center;
   cursor: pointer;
   transition: opacity .3s;
-  padding: 0;
+  padding: 20px 0 0 0;
   width: 33px;
   height: 20px;
   background-image: url('../../images/list-icon.svg');
-
 }
 
 .button-menu:hover {

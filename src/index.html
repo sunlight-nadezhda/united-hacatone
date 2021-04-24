@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body class="page">
+<body class="page appear">
   <header class="header page__container page__container_type_whitebg">
+
     <nav class="header__container">
       <ul class="header__menu-links header__menu-links_type_row">
         <li class="header__menu-link">
@@ -28,31 +29,32 @@
       </ul>
       <div class="button-close"></div>
     </nav>
+
+    <section class ="lead">
+      <div class="lead__container">
+        <div class="lead__info">
+          <h1 class="lead__name">Denis Novik</h1>
+          <div class="lead__short-info">
+            <p class = "lead__profession">UX | UI designer</p>
+            <p class = "lead__agelocation">24 years old, Minsk</p>
+          </div>
+        </div>
+        <ul class="lead__lang-links">
+          <li class="lead__lang-link">
+            <a href="#" target="_self" class="page__link">Ru</a>
+          </li>
+          <li class="lead__lang-link">
+            <a href="#" target="_self" class="page__link page__link_active">Eng</a>
+          </li>
+        </ul>
+        <div class="button-menu"></div>
+      </div>
+    </section>
   </header>
 
-<main class="content">
-  <section class ="lead page__container page__container_type_whitebg">
-    <div class="lead__container">
-      <div class="lead__info">
-        <h1 class="lead__name">Denis Novik</h1>
-        <div class="lead__short-info">
-          <p class = "lead__profession">UX | UI designer</p>
-          <p class = "lead__agelocation">24 years old, Minsk</p>
-        </div>
-      </div>
-      <ul class="lead__lang-links">
-        <li class="lead__lang-link">
-          <a href="#" target="_self" class="page__link">Ru</a>
-        </li>
-        <li class="lead__lang-link">
-          <a href="#" target="_self" class="page__link page__link_active">Eng</a>
-        </li>
-      </ul>
-      <div class="button-menu"></div>
-    </div>  
-    <img class="lead__image" src="<%=require('./images/lead-images/123.jpg')%>" alt="Портрет мужчины">
-</section>
-  <!-- <section class="about" id="about"></section>
+<main class="content page__container">
+  <div class="slider appear"></div>
+  <section class="about" id="about"></section>
   <section class="skills page__container page__container_type_whitebg" id="skills">
     <h2 class="skills__title">Skills</h2>
     <p class="skills__text">I work in such programs as</p>
@@ -79,7 +81,7 @@
         <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
       </li>
     </ul>
-  </section> -->
+  </section>
   <section class="portfolio" id="portfolio"></section>
   <section class="contacts" id="contacts"></section>
 </main>

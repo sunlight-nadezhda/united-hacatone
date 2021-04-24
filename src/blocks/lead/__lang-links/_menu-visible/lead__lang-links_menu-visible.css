@@ -1,4 +1,4 @@
 .lead__lang-links_menu-visible {
-  display:flex;
+  display: flex;
   transform: rotate(90deg);
 }
