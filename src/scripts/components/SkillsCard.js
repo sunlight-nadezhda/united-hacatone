@@ -1,7 +1,9 @@
+
 export default class SkillsCard {
-  constructor({image, text}, selector) {
+  constructor({image, text, initialRate}, selector) {
     this._image = image;
     this._name = text;
+    this._initialRate = initialRate;
     this._selector = selector;
   }
 
@@ -18,6 +20,12 @@ export default class SkillsCard {
     this._setStars(posOfStar,skillRate);
   }
 
+  _setInitialStars() {
+    for (let i=0;i<this._initialRate;i++) {
+      this._elementsOfCard.cardSkillsRate.children[i].classList.add('skills__star_active');
+    }
+  }
+
   _checkFirstStar(posOfStar,skillRate) {
     if ((posOfStar === 0) &&
        (skillRate.children[0].classList.contains('skills__star_active')) &&
@@ -32,8 +40,10 @@ export default class SkillsCard {
     if (this._checkFirstStar(posOfStar,skillRate)) return;
 
     for (let i=0; i<=posOfStar; i++) {
-      skillRate.children[i].classList.add('skills__star_active');
-      skillRate.children[i].classList.add('appear');
+      if(!skillRate.children[i].classList.contains('skills__star_active')){
+        skillRate.children[i].classList.add('skills__star_active');
+        skillRate.children[i].classList.add('appear');
+      }
     }
 
     for (let j=posOfStar+1; j<5; j++) {
@@ -63,10 +73,9 @@ export default class SkillsCard {
     this._elementsOfCard.cardImg.alt = `Иконка программы ${this._name}`;
     this._elementsOfCard.cardTitle.textContent = this._name;
 
-    this._delay = 1/6;
-    this._element.style.animationDelay = `${this._delay}s`;
-
+    this._setInitialStars();
     this._setEventListeners();
+
 
     return this._element;
   }

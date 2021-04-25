@@ -25,9 +25,6 @@ export default class ProjectCard {
     this._elementsOfCard.cardTitle.textContent = this._nameProject;
     this._elementsOfCard.cardLink.href = this._link;
 
-    this._delay = 1/6;
-    this._element.style.animationDelay = `${this._delay}s`;
-
     return this._element;
   }
 

@@ -7,11 +7,7 @@ import adobeIllustrator from './../../images/illustrator.svg';
 import adobeAfterEffects from './../../images/effects.svg';
 import figma from './../../images/figma.svg';
 
-
-
-
-
-export const initialImages = [
+const initialImages = [
   {
     link: 'url("https://images.unsplash.com/photo-1595754883593-e274aaa13580?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80")'
   },
@@ -39,7 +35,7 @@ export const initialImages = [
 ];
 
 
-export const dataProjects = [
+const dataProjects = [
   {
     image: fashionImage,
     text: 'Online fashion store - Homepage',
@@ -57,27 +53,31 @@ export const dataProjects = [
   }
 ];
 
-export const dataSkills = [
+const dataSkills = [
   {
     image: adobePhotoshop,
     text: 'Adobe Photoshop',
+    initialRate: 4
   },
   {
     image: adobeIllustrator,
     text: 'Adobe Illustrator',
+    initialRate: 3
   },
   {
     image: adobeAfterEffects,
     text: 'Adobe After Effects',
+    initialRate: 1
   },
   {
     image: figma,
     text: 'Figma',
+    initialRate: 4
   }
 ];
 
 
-export const menuSettings = {
+ const menuSettings = {
     menuButton: document.querySelector('.button-menu'),
     closeButton: document.querySelector('.button-close'),
     menuLinks: document.querySelector('.header__menu-links'),
@@ -85,3 +85,5 @@ export const menuSettings = {
     content: document.querySelector('.content'),
     langLinks: document.querySelector('.lead__lang-links')
 };
+
+export {initialImages, dataProjects, dataSkills, menuSettings}
