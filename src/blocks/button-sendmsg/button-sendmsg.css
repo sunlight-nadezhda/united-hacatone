@@ -10,7 +10,7 @@
   text-align: center;
   color: #fff;
   background-color: #000;
-  transition: opacity .3s;
+  transition: opacity .3s ease-in-out, transform .15s ease-in-out;
   cursor: pointer;
   padding: 0;
   margin-top: 30px;
@@ -19,6 +19,7 @@
 
 .button-sendmsg:hover {
   opacity: 0.6;
+  transform: scale(1.1);
 }
 
 .button-sendmsg:active {

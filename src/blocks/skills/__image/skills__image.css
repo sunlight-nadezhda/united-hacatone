@@ -2,4 +2,10 @@
   border: 0;
   width: 89px;
   height: 89px;
+  transition: transform .4s ease-in-out;
+  cursor:pointer;
+}
+
+.skills__image:hover {
+  transform: scale(1.2);
 }

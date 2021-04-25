@@ -1,8 +1,13 @@
 .footer__social-icon {
   height: 100%;
-  width: 100%;    
+  width: 100%;
+  transition: transform .15s ease-in-out; 
 }
 
 .footer__social-icon:active {
   transform: scale(0.95);
+}
+
+.footer__social-icon:hover {
+  transform: scale(1.1);
 }
