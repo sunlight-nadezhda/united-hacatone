@@ -8,8 +8,8 @@
   animation: fade 8s ease-in-out infinite;
   animation-delay: 4s;
   margin-bottom: 104px;
-  width: 943px;
   padding: 0;
+  max-width: 943px;
   height: 387px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,10 +23,32 @@
   }
 }
 
-@media screen and (max-width: 478px) {
+/*Цель: изображение должно расти по высоте при сжатии окна
+Изначально фиксированная высота 387 px
+На разрешении 376 px, 60 суммарная величина боковых margin, ширина изображения становится 316
+А высота должна стать не 387px, а 478px
+Для этого нужно определить на каком разрешении начать увеличивать высоту и насколько увеличивать
+Насколько увеличивать высоту: нужная высота - исходная : 478px - 387px = 91px;
+Когда нужно начать увеличивать: размер окна целевой + необходимая величина увеличения: 376 + 91px = 467px;
+Соответственно можно увеличивать высоту через padding-bottom и box-sizing:content-box, а можно через height
+
+Идея: увеличивать padding до 91 px, тем самым растягивая изображения, начиная с 0.
+@media screen and (max-width: 467px) {
+padding-bottom: calc(376px - 100vw + 91px);//постепенно увеличивается с 0 до 91px и больше
+box-sizing: content-box;
+}
+А можно через height увеличивать, постепенно прибавляя от 0 до 91 и больше:
+@media screen and (max-width: 467px) {
+height: calc(387px + 376px - 100vw + 91px)
+}
+*/
+
+@media screen and (max-width: 467px) {
   .faded-image {
     margin-bottom: 83px;
-    height: calc((478/376)*(100vw));
+    /* padding-bottom: calc(376px - 100vw + 91px );
+    box-sizing: content-box; */
+    height: calc(387px + 376px - 100vw + 91px);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
