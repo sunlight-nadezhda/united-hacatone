@@ -66,42 +66,22 @@
         with wonderful people.</p>
     </div>
   </section>
+
   <section class="skills page__container page__container_type_whitebg" id="skills">
     <h2 class="title">Skills</h2>
     <p class="skills__text">I work in such programs as</p>
     <ul class="skills__programs-block">
-      <li class="skills__program-item">
-        <img src="<%=require('./images/photoshop.svg')%>" alt="Photoshop" class="skills__image">
-        <p class="skills__description">Adobe Photoshop</p>
-        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
-      </li>
-      <li class="skills__program-item">
-        <img src="<%=require('./images/illustrator.svg')%>" alt="Illustrator" class="skills__image">
-        <p class="skills__description">Adobe Illustrator</p>
-        <div class="skills__rate skills__rate_type_three-stars" aria-label="Star rater"></div>
-      </li>
-      <li class="skills__program-item">
-        <img src="<%=require('./images/effects.svg')%>" alt="After effects" class="skills__image">
-        <p class="skills__description">Adobe
-          After Effects</p>
-        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
-      </li>
-      <li class="skills__program-item">
-        <img src="<%=require('./images/figma.svg')%>" alt="Figma" class="skills__image">
-        <p class="skills__description">Figma</p>
-        <div class="skills__rate skills__rate_type_four-stars" aria-label="Star rater"></div>
-      </li>
     </ul>
   </section>
+
   <section class="portfolio page__container page__container_type_greybg" id="portfolio">
     <div class="portfolio__container">
       <h2 class="title">Portfolio</h2>
       <div class="portfolio__projects-block"></div>
     </div>
   </section>
-  <section class="contacts" id="contacts"></section>
-
-  <footer class="footer page__container page__container_type_whitebg">
+  
+  <footer class="footer page__container page__container_type_whitebg" id="contacts">
     <h2 class="title">Contacts</h2>
     <p class="footer__text">Want to know more or just chat? You are welcome!</p>
     <button type="button" aria-label="Отправить сообщение" class="button-sendmsg">Send message</button>
@@ -135,7 +115,21 @@
 
 </main>
 
-<template id="card-project">
+<template class="card-skills">
+<li class="skills__program-item">
+  <img src="<%=require('./images/photoshop.svg')%>" alt="Photoshop" class="skills__image">
+  <p class="skills__description">Adobe Photoshop</p>
+  <div class="skills__rate" aria-label="Star rater">
+    <div class="skills__star" id="star0"></div>
+    <div class="skills__star" id="star1"></div>
+    <div class="skills__star" id="star2"></div>
+    <div class="skills__star" id="star3"></div>
+    <div class="skills__star" id="star4"></div>
+  </div>
+</li>
+</template>
+
+<template class="card-project">
   <a href="#" class="portfolio__project-link" target="_blank" rel="noopener noreferrer">
     <img src="<%=require('./images/fashion.jpg')%>" alt="Portfolio image" class="portfolio__image">
     <p class="portfolio__project-name">Online fashion store - Homepage</p>

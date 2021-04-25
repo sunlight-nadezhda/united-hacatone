@@ -2,6 +2,15 @@ import fashionImage from './../../images/fashion.jpg';
 import reebokImage from './../../images/reebok.jpg';
 import braunImage from './../../images/braun.jpg';
 
+import adobePhotoshop from './../../images/photoshop.svg';
+import adobeIllustrator from './../../images/illustrator.svg';
+import adobeAfterEffects from './../../images/effects.svg';
+import figma from './../../images/figma.svg';
+
+
+
+
+
 export const initialImages = [
   {
     link: 'url("https://images.unsplash.com/photo-1595754883593-e274aaa13580?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1217&q=80")'
@@ -30,7 +39,7 @@ export const initialImages = [
 ];
 
 
-export const projectsInfo = [
+export const dataProjects = [
   {
     image: fashionImage,
     text: 'Online fashion store - Homepage',
@@ -47,6 +56,26 @@ export const projectsInfo = [
     link: 'https://braun-russia.ru/'
   }
 ];
+
+export const dataSkills = [
+  {
+    image: adobePhotoshop,
+    text: 'Adobe Photoshop',
+  },
+  {
+    image: adobeIllustrator,
+    text: 'Adobe Illustrator',
+  },
+  {
+    image: adobeAfterEffects,
+    text: 'Adobe After Effects',
+  },
+  {
+    image: figma,
+    text: 'Figma',
+  }
+];
+
 
 export const menuSettings = {
     menuButton: document.querySelector('.button-menu'),

@@ -2,4 +2,6 @@
   margin-top: 40px;
   width: 167px;
   height: 26px;
+  display: flex;
+  justify-content: space-between;
 }

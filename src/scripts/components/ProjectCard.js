@@ -6,17 +6,27 @@ export default class ProjectCard {
     this._selector = selector;
   }
 
-  renderCard() {
-    this._element = this._getTemplate();
-    const elementImage = this._element.querySelector('.portfolio__image');
-    const elementName = this._element.querySelector('.portfolio__project-name');
-    const elementLink = this._element.closest('.portfolio__project-link');
+  
+  _getElementsOfCard() { 
+    const elementsOfCard = { 
+     cardImg: this._element.querySelector('.portfolio__image'),
+     cardTitle: this._element.querySelector('.portfolio__project-name'),
+     cardLink: this._element.closest('.portfolio__project-link')
+    } 
+ 
+    return elementsOfCard; 
+  } 
 
-    elementImage.src = this._image;
-    elementName.textContent = this._nameProject;
-    console.log(this._link);
-    elementLink.href = this._link;
-    console.log(elementLink.href);
+  generateCard() {
+    this._element = this._getTemplate();
+    this._elementsOfCard = this._getElementsOfCard(); 
+
+    this._elementsOfCard.cardImg.src = this._image;
+    this._elementsOfCard.cardTitle.textContent = this._nameProject;
+    this._elementsOfCard.cardLink.href = this._link;
+
+    this._delay = 1/6;
+    this._element.style.animationDelay = `${this._delay}s`;
 
     return this._element;
   }
@@ -27,7 +37,6 @@ export default class ProjectCard {
       .content
       .querySelector('.portfolio__project-link')
       .cloneNode(true);
-
     return cardElement;
   }
 

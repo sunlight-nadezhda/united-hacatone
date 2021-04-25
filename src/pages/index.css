@@ -54,8 +54,8 @@
 @import url('../blocks/skills/__image/skills__image.css');
 @import url('../blocks/skills/__description/skills__description.css');
 @import url('../blocks/skills/__rate/skills__rate.css');
-@import url('../blocks/skills/__rate/_type/skills__rate_type_four-stars.css');
-@import url('../blocks/skills/__rate/_type/skills__rate_type_three-stars.css');
+@import url('../blocks/skills/__star/skills__star.css');
+@import url('../blocks/skills/__star/_active/skills__star_active.css');
 
 @import url('../blocks/footer/footer.css');
 @import url('../blocks/footer/__text/footer__text.css');
