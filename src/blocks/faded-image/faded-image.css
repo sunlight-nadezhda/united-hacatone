@@ -43,13 +43,34 @@ height: calc(387px + 376px - 100vw + 91px)
 }
 */
 
+/*
+вот так позднее увеличение (либо паддинг выбрать, либо height)
 @media screen and (max-width: 467px) {
   .faded-image {
     margin-bottom: 83px;
     /* padding-bottom: calc(376px - 100vw + 91px );
     box-sizing: content-box; */
-    height: calc(387px + 376px - 100vw + 91px);
+    /*height: calc(387px + 376px - 100vw + 91px);
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 }
+*/
+
+/*сделал, чтобы пораньше началось увеличение высоты*/
+/*и зафиксировал высоту на уровен 478*/
+/*Получилось плавно и красиво*/
+@media screen and (max-width: 780px) {
+  .faded-image {
+    height: calc(387px + 689px - 100vw + 91px);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media screen and (max-width: 689px) {
+  .faded-image {
+    margin-bottom: 83px;
+    height: 478px;
+  }
+}
+
 
