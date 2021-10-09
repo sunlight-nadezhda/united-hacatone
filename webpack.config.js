@@ -12,9 +12,12 @@ module.exports = {
   },
   mode: 'development',
   devServer: {
-    // contentBase: path.resolve(__dirname, './dist'),
+    static: {
+      directory: path.join(__dirname, 'public'),
+      watch: true,
+    },
     compress: true,
-    port: 8080,
+    port: 9000,
     open: true
   },
   module: {

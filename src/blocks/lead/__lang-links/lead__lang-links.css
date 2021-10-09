@@ -20,7 +20,9 @@
     font-size: 34px;
     font-weight: 700;
     line-height: 1.23;
-    right: -80px;
-    bottom: -65px;
+    position: fixed;
+    right: -50px;
+    bottom: 57px;
+    z-index: 2;
   }
 }
